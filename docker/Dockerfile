@@ -1,6 +1,5 @@
 FROM php:5.6-cli
 
-WORKDIR php-ci-test/
 COPY src/ /opt/app
 
 WORKDIR /opt/app
