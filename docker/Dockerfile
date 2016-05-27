@@ -1,4 +1,4 @@
-FROM php:5.6-cli
+FROM tehranian/dind-jenkins-slave
 
 WORKDIR php-ci-test/
 COPY php-ci-test/src/ /opt/app
